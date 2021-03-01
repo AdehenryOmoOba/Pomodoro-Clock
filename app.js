@@ -172,6 +172,9 @@ class App extends React.Component {
             </button>
           </div>
         </div>
+        <small className="attributtion">
+          Built and designed by 🕸️AdeHenryOmoOba🕸️
+        </small>
       </div>
     );
   }

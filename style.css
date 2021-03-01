@@ -85,6 +85,11 @@ small {
   color: #fff;
   font-size: 8px;
 }
+.attributtion {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
 
 @media (max-width: 690px) {
   #root,
