@@ -151,7 +151,9 @@ class App extends React.Component {
 
     return (
       <div className="App">
-        <h1>Pomodoro</h1>
+        <h1>
+          Pomodoro <small>clock</small>
+        </h1>
         <div className="container">
           <SetTimer {...breakProps} />
           <SetTimer {...sessionProps} />

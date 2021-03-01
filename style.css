@@ -81,20 +81,24 @@ button i {
   width: 80px;
   text-align: center;
 }
-@media (max-width: 689px) {
+small {
+  color: #fff;
+  font-size: 8px;
+}
+
+@media (max-width: 690px) {
   #root,
   .App,
   .clock-container,
   .timer-container {
     min-height: 100vh;
     min-width: 100vw;
-    transform: scale(0.8);
   }
   .timer-container {
     flex-direction: column;
     min-height: 10px;
     min-width: 20px;
-    margin: 0 -40px;
+    margin: 0 -10px;
     padding: 0;
   }
   .clock-container {
@@ -105,5 +109,13 @@ button i {
     transform: scale(0.6);
     margin: 0 -40px;
     padding: 0;
+  }
+}
+@media (max-width: 450px) {
+  .container,
+  .clock-container {
+    transform: scale(0.7);
+    /* margin: 0 -40px; */
+    /* padding: 30px; */
   }
 }
