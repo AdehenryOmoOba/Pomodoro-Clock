@@ -173,7 +173,7 @@ class App extends React.Component {
           </div>
         </div>
         <small className="attributtion">
-          Built and designed by 🕸️AdeHenryOmoOba🕸️
+          Built and designed by 🕸️AdeHenryOmoOba🕸️ &copy; 2021
         </small>
       </div>
     );
