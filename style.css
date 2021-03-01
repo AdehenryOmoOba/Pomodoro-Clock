@@ -115,7 +115,5 @@ small {
   .container,
   .clock-container {
     transform: scale(0.7);
-    /* margin: 0 -40px; */
-    /* padding: 30px; */
   }
 }
